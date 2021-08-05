@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [testNGSuite]">
+  <test thread-count="1" name="GoibiboTest(failed)">
+    <classes>
+      <class name="com.qa.test.runner.TestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.qa.test.runner.TestRunner -->
+    </classes>
+  </test> <!-- GoibiboTest(failed) -->
+</suite> <!-- Failed suite [testNGSuite] -->

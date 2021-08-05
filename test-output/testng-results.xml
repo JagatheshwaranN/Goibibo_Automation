@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNGSuite" duration-ms="42787" started-at="2021-06-24T12:37:00Z" finished-at="2021-06-24T12:37:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.test.runner.TestRunner@3108bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="GoibiboTest" duration-ms="42787" started-at="2021-06-24T12:37:00Z" finished-at="2021-06-24T12:37:43Z">
+      <class name="com.qa.test.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.test.runner.TestRunner@3108bc]" name="setUpClass" is-config="true" duration-ms="855" started-at="2021-06-24T12:37:00Z" finished-at="2021-06-24T12:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.test.runner.TestRunner@3108bc]" name="runScenario" duration-ms="37984" started-at="2021-06-24T12:37:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-24T12:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to book and view ticket details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Goibibo Ticket Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.test.runner.TestRunner@3108bc]" name="tearDownClass" is-config="true" duration-ms="3882" started-at="2021-06-24T12:37:39Z" finished-at="2021-06-24T12:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.test.runner.TestRunner -->
+    </test> <!-- GoibiboTest -->
+  </suite> <!-- testNGSuite -->
+</testng-results>

@@ -1,0 +1,112 @@
+24-06-2021 17:06:652 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:655 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:319 INFO  TestBase :63 - Invoke browser is failed..
+org.openqa.selenium.WebDriverException: chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-69A82KC', ip: '192.168.43.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01093733+2504499]
+	Ordinal0 [0x0102C401+2081793]
+	Ordinal0 [0x00F324F0+1058032]
+	Ordinal0 [0x00F274B5+1012917]
+	Ordinal0 [0x00F5005B+1179739]
+	Ordinal0 [0x00F4C58C+1164684]
+	Ordinal0 [0x00F49DC3+1154499]
+	Ordinal0 [0x00F79B82+1350530]
+	Ordinal0 [0x00F797DA+1349594]
+	Ordinal0 [0x00F75D4B+1334603]
+	Ordinal0 [0x00F522B4+1188532]
+	Ordinal0 [0x00F53149+1192265]
+	GetHandleVerifier [0x0120FB8C+1512252]
+	GetHandleVerifier [0x012BB0DF+2214031]
+	GetHandleVerifier [0x01114BC3+484211]
+	GetHandleVerifier [0x01113E69+480793]
+	Ordinal0 [0x0103218D+2105741]
+	Ordinal0 [0x010366E8+2123496]
+	Ordinal0 [0x01036827+2123815]
+	Ordinal0 [0x0103FB73+2161523]
+	BaseThreadInitThunk [0x74F56359+25]
+	RtlGetAppContainerNamedObjectPath [0x775F8964+228]
+	RtlGetAppContainerNamedObjectPath [0x775F8934+180]
+
+24-06-2021 17:06:650 INFO  TestBase :86 - FAILED ***** : Verify user is able to launch Goibibo site
+24-06-2021 17:06:662 INFO  TestBase :91 - Exception occured while capture screenshot : java.lang.NullPointerException
+24-06-2021 17:06:648 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:45 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:155 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (a443dd120c18879324f4dd47f080f333)
+24-06-2021 17:06:954 INFO  HomePage :104 - Home page execution start
+24-06-2021 17:06:392 INFO  ReusableFunction :57 - Some error occured while wait for element : By.xpath: //ul[@id='react-autosuggest-1']//li//div[@class='mainTxt clearfix']//span[text()='Chennai, India']
+24-06-2021 17:06:94 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:198 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:202 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (f6ed7948ab8a8b218217429486a280cb)
+24-06-2021 17:06:827 INFO  HomePage :104 - Home page execution start
+24-06-2021 17:06:28 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 17:06:254 INFO  HomePage :114 - Home page execution end
+24-06-2021 17:06:376 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 17:06:654 INFO  ReusableFunction :57 - Some error occured while wait for element : By.xpath: //span[contains(@class,'flex1') and text()='TICKET DETAILS']
+24-06-2021 17:06:716 INFO  ReusableFunction :34 - Some error occured while creation of element : By.xpath: //span[contains(@class,'flex1') and text()='TICKET DETAILS']
+24-06-2021 17:06:855 INFO  TestBase :86 - FAILED ***** : Verify user is able to book and view ticket details
+24-06-2021 17:06:241 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:251 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:352 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (50a7765632e1abff0675aac4daa5a268)
+24-06-2021 17:06:25 INFO  TestBase :95 - PASSED ***** : Verify user is able to launch Goibibo site
+24-06-2021 17:06:982 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:214 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:729 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (4e907a365d4edc567d625133f6b90655)
+24-06-2021 17:06:258 INFO  HomePage :104 - Home page execution start
+24-06-2021 17:06:862 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 17:06:45 INFO  HomePage :114 - Home page execution end
+24-06-2021 17:06:71 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 17:06:177 INFO  TicketBookingPage :80 - Error occured while get price list
+24-06-2021 17:06:739 INFO  ReusableFunction :57 - Some error occured while wait for element : By.xpath: //span[contains(@class,'flex1') and text()='TICKET DETAILS']
+24-06-2021 17:06:868 INFO  ReusableFunction :34 - Some error occured while creation of element : By.xpath: //span[contains(@class,'flex1') and text()='TICKET DETAILS']
+24-06-2021 17:06:943 INFO  TestBase :86 - FAILED ***** : Verify user is able to book and view ticket details
+24-06-2021 17:06:336 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:353 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:298 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (0ada6956f801d6e1ec958e656cbd079d)
+24-06-2021 17:06:729 INFO  TestBase :95 - PASSED ***** : Verify user is able to launch Goibibo site
+24-06-2021 17:06:866 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 17:06:919 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 17:06:693 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (c571ad1b4795817d731df3883d343ddb)
+24-06-2021 17:06:279 INFO  HomePage :104 - Home page execution start
+24-06-2021 17:06:229 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 17:06:454 INFO  HomePage :114 - Home page execution end
+24-06-2021 17:06:469 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 17:06:991 INFO  TicketBookingPage :58 - Ticket booking execution end
+24-06-2021 17:06:389 INFO  TicketDetailsPage :69 - Verify ticket details execution start
+24-06-2021 17:06:529 INFO  TicketDetailsPage :76 - Verify ticket details execution end
+24-06-2021 17:06:536 INFO  TestBase :95 - PASSED ***** : Verify user is able to book and view ticket details
+24-06-2021 18:06:59 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 18:06:121 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 18:06:920 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (b5ff515ff789c834e577d4329040ebd2)
+24-06-2021 18:06:555 INFO  HomePage :104 - Home page execution start
+24-06-2021 18:06:667 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 18:06:362 INFO  HomePage :114 - Home page execution end
+24-06-2021 18:06:422 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 18:06:776 INFO  TicketBookingPage :62 - Ticket booking execution end
+24-06-2021 18:06:187 INFO  TicketDetailsPage :69 - Verify ticket details execution start
+24-06-2021 18:06:984 INFO  TestBase :95 - PASSED ***** : Verify user is able to book and view ticket details
+24-06-2021 18:06:283 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 18:06:350 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 18:06:926 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (8ffa42b1f14071bd13037169355c4d5c)
+24-06-2021 18:06:632 INFO  HomePage :104 - Home page execution start
+24-06-2021 18:06:510 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 18:06:414 INFO  HomePage :114 - Home page execution end
+24-06-2021 18:06:426 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 18:06:05 INFO  TicketBookingPage :62 - Ticket booking execution end
+24-06-2021 18:06:420 INFO  TicketDetailsPage :69 - Verify ticket details execution start
+24-06-2021 18:06:926 INFO  ReusableFunction :57 - Some error occured while wait for element : By.xpath: //div[contains(@class,'common-elementsstyles__Wid13')]//span[1]
+24-06-2021 18:06:175 INFO  ReusableFunction :34 - Some error occured while creation of element : By.xpath: //div[contains(@class,'common-elementsstyles__Wid13')]//span[1]
+24-06-2021 18:06:192 INFO  TestBase :95 - PASSED ***** : Verify user is able to book and view ticket details
+24-06-2021 18:06:135 INFO  TestBase :127 - ======================== [ Property File Load Successful ] ========================
+24-06-2021 18:06:200 INFO  TestBase :59 - ***************Running Chrome Browser
+24-06-2021 18:06:625 INFO  TestBase :61 - Driver Information : ChromeDriver: chrome on WINDOWS (e5e47e7185dd8dbf94f895615ccfdb06)
+24-06-2021 18:06:978 INFO  HomePage :104 - Home page execution start
+24-06-2021 18:06:57 INFO  ReusableFunction :86 - The value E is selected
+24-06-2021 18:06:544 INFO  HomePage :114 - Home page execution end
+24-06-2021 18:06:578 INFO  TicketBookingPage :52 - Ticket booking execution start
+24-06-2021 18:06:625 INFO  TicketBookingPage :62 - Ticket booking execution end
+24-06-2021 18:06:38 INFO  TicketDetailsPage :69 - Verify ticket details execution start
+24-06-2021 18:06:711 INFO  TicketDetailsPage :77 - Verify ticket details execution end
+24-06-2021 18:06:713 INFO  TestBase :95 - PASSED ***** : Verify user is able to book and view ticket details
