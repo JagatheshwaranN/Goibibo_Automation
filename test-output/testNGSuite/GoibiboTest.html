@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>GoibiboTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 24 18:07:00 IST 2021</td>
+<td>Started on:</td><td>Fri Sep 10 18:05:03 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>42 seconds (42787 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9328 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,9 +76,20 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.qa.test.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.qa.test.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user is able to book and view ticket details", "Optional[Goibibo Ticket Booking]"</td>
-<td></td>
-<td>37</td>
-<td>com.qa.test.runner.TestRunner@3108bc</td></tr>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.qa.test.base.TestBase.invokeBrowser(TestBase.java:62)
+	at com.qa.test.base.TestBase.before(TestBase.java:71)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace129924629", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace129924629'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.qa.test.base.TestBase.invokeBrowser(TestBase.java:62)
+	at com.qa.test.base.TestBase.before(TestBase.java:71)
+</pre></div></td>
+<td>4</td>
+<td>com.qa.test.runner.TestRunner@11bd0f3b</td></tr>
 </table><p>
 </body>
 </html>

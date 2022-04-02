@@ -110,3 +110,38 @@ remote stacktrace: Backtrace:
 24-06-2021 18:06:38 INFO  TicketDetailsPage :69 - Verify ticket details execution start
 24-06-2021 18:06:711 INFO  TicketDetailsPage :77 - Verify ticket details execution end
 24-06-2021 18:06:713 INFO  TestBase :95 - PASSED ***** : Verify user is able to book and view ticket details
+10-09-2021 18:09:208 INFO  TestBase :122 - ======================== [ Property File Load Successful ] ========================
+10-09-2021 18:09:391 INFO  TestBase :56 - *******************************_Running Chrome Browser
+10-09-2021 18:09:361 INFO  TestBase :61 - Error occured while launch of browser
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAGA-LAPTOP', ip: '192.168.43.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE3733+2504499]
+	Ordinal0 [0x00E7C401+2081793]
+	Ordinal0 [0x00D82628+1058344]
+	Ordinal0 [0x00DA071A+1181466]
+	Ordinal0 [0x00D9C58C+1164684]
+	Ordinal0 [0x00D99DC3+1154499]
+	Ordinal0 [0x00DC9B82+1350530]
+	Ordinal0 [0x00DC97DA+1349594]
+	Ordinal0 [0x00DC5D4B+1334603]
+	Ordinal0 [0x00DA22B4+1188532]
+	Ordinal0 [0x00DA3149+1192265]
+	GetHandleVerifier [0x0105FB8C+1512252]
+	GetHandleVerifier [0x0110B0DF+2214031]
+	GetHandleVerifier [0x00F64BC3+484211]
+	GetHandleVerifier [0x00F63E69+480793]
+	Ordinal0 [0x00E8218D+2105741]
+	Ordinal0 [0x00E866E8+2123496]
+	Ordinal0 [0x00E86827+2123815]
+	Ordinal0 [0x00E8FB73+2161523]
+	BaseThreadInitThunk [0x77940419+25]
+	RtlGetAppContainerNamedObjectPath [0x77A774ED+237]
+	RtlGetAppContainerNamedObjectPath [0x77A774BD+189]
+
+10-09-2021 18:09:405 INFO  TestBase :83 - FAILED ***** : Verify user is able to book and view ticket details
+10-09-2021 18:09:408 INFO  TestBase :87 - Error occured while capture screenshot
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "com.qa.test.base.TestBase.driver" is null
